@@ -1,0 +1,31 @@
+<?php
+
+return [
+            'ID' => 'ID',
+            'Thumbnail' => 'Thumbnail',
+            'Image' => 'Image',
+            'Name' => 'Name',
+            'Real Name' => 'Real Name',
+            'Description' => 'Description',
+            'Content' => 'Content',
+            'Birth Date' => 'Birth Date',
+            'Location' => 'Location',
+            'Count Views' => 'Count Views',
+            'Count Likes' => 'Count Likes',
+            'Count Rates' => 'Count Rates',
+            'Rates' => 'Rates',
+            'Is Top' => 'Is Top',
+            'Is New' => 'Is New',
+            'Is Hot' => 'Is Hot',
+            'Is Active' => 'Is Active',
+            'Lang' => 'Lang',
+            'Type' => 'Type',
+            'Status' => 'Status',
+            'Category ID' => 'Category ID',
+            'Created Date' => 'Created Date',
+            'Created User' => 'Created User',
+            'Modified Date' => 'Modified Date',
+            'Modified User' => 'Modified User',
+            'Application ID' => 'Application ID',
+        ];
+?>

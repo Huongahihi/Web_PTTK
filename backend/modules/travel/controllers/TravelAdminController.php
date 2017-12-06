@@ -1,0 +1,31 @@
+<?php
+/**
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright (c) 2008 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ */
+
+namespace backend\modules\travel\controllers;
+
+use backend\controllers\AdminController;
+use common\components\FHtml;
+use Yii;
+
+/**
+ * Controller is the base class for RESTful API controller classes.
+ *
+ * Controller implements the following steps in a RESTful API request handling cycle:
+ *
+ * 1. Resolving response format (see [[ContentNegotiator]]);
+ * 2. Validating request method (see [[verbs()]]).
+ * 3. Authenticating user (see [[\yii\filters\auth\AuthInterface]]);
+ * 4. Rate limiting (see [[RateLimiter]]);
+ * 5. Formatting response data (see [[serializeData()]]).
+ *
+ * @author Hung Ho (Steve) | www.apptemplate.co, wwww.moza-tech.com, www.codeyii.com | skype: hung.hoxuan  <hung.hoxuan@gmail.com>
+ * @since 2.0
+ */
+class TravelAdminController extends AdminController
+{
+
+}

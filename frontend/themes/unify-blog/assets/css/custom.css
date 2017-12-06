@@ -1,0 +1,33 @@
+/* Add here all your css styles (customizations) */
+.header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu li a {
+    color: #333;
+}
+.header-v8 .mega-menu .mega-menu-fullwidth .dropdown-menu li a:hover {
+    color: #e74c3c;
+}
+
+/*Menu*/
+.blog-date-time {
+    font-size: 12px;
+    line-height: 1.1;
+    margin: 0 0 10px;
+}
+.blog-grid h4 {
+    font-size: 12px;
+    margin: 0 0 10px;
+    line-height: 1.1;
+    color: #e74c3c;
+}
+
+.blog-artist {
+    font-size: 18px;
+    margin: 0 0 10px;
+    line-height: 1.1;
+    color: #e74c3c !important;
+}
+
+/*Nav Tab*/
+
+.tab-v5 .nav-tabs li.active a {
+    border-top: solid 2px #d2cfcf;
+}

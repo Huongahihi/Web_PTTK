@@ -1,0 +1,72 @@
+/* Top Mobiles set Button Rearange*/
+        /* Basic Style */
+       .detail-btns-ec{
+            position: absolute;
+            padding: 1em 1em 1.5em;
+            bottom: 0;
+            left:0;
+            width: 100%;
+        }
+        .detail-btns-ec .button-transparent{
+            margin-top:1em;
+        }
+        
+        /* Mobile button Arrangement E-Commerce */
+        .mobile-tablets-btn-set-ec{
+            display: none;
+        }
+        
+        /* Responsive for E-commerce */
+            /* Tablet E-commerce */
+            @media screen and (min-width: 768px) and (max-width: 1080px){
+                /* Border for mobile */
+                .item-animated-content{
+                    padding: 10px 18px;
+                }
+                /* Title for Top Mobile */
+                .item-animated-content .item-animated-title{
+                    font-size: 1.4rem;
+                }
+                /* Price for top-mobiles */
+                .item-animated-content .item-animated-price{
+                    font-size: 1.3rem;
+                    margin-bottom: 0.4em;
+                }
+                .button-transparent{
+                    border-width: 2px;
+                }
+                /* Subtitle for top-mobile */
+                .item-animated-content .subtitle{
+                    font-size: 1.05rem;
+                }
+                /* Description for top mobile */
+                .item-animated-content .item-animated-description{
+                    font-size: 0.85rem;
+                }
+            }
+            /*Mobile E-commerce */
+            @media screen and (max-width: 480px){
+                .mobile-tablets-btn-set-ec{
+                    display: block;
+                    padding: 0 1em;
+                }
+                .mobile-tablets-btn-set-ec .btn-ec{
+                    background:#2aad6f;
+                    padding: 7px 0;
+                    color: white;
+                    display:block;
+                    margin: 0 0 1em;
+                    text-align:center;
+                    font-weight: 600;
+                    font-size: 1.15em;
+                }
+                .item-animated-view > a{
+                    padding: 28px 0 15px;
+                }
+            }
+            /*End of Mobile E-commerce */
+            /* End of Tablet E-commerce */
+            /* Mobile E-commerce */
+            /* End of Mobile E-Commerce */
+        /* End of Responsive E-commerce */
+    /* End of E-commerce */

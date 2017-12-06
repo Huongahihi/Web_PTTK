@@ -1,0 +1,32 @@
+<?php
+
+return [
+            'ID' => 'ID',
+            'Image' => 'Image',
+            'Code' => 'Code',
+            'Name' => 'Name',
+            'Description' => 'Description',
+            'Content' => 'Content',
+            'Start Date' => 'Start Date',
+            'Contact Name' => 'Contact Name',
+            'Phone' => 'Phone',
+            'Email' => 'Email',
+            'Address' => 'Address',
+            'Website' => 'Website',
+            'City' => 'City',
+            'Country' => 'Country',
+            'Lat' => 'Lat',
+            'Long' => 'Long',
+            'Rate' => 'Rate',
+            'Type' => 'Type',
+            'Status' => 'Status',
+            'Is Top' => 'Is Top',
+            'Is Active' => 'Is Active',
+            'Sort Order' => 'Sort Order',
+            'Created Date' => 'Created Date',
+            'Created User' => 'Created User',
+            'Modified Date' => 'Modified Date',
+            'Modified User' => 'Modified User',
+            'Application ID' => 'Application ID',
+        ];
+?>

@@ -1,0 +1,32 @@
+<?php
+
+return [
+            'ID' => 'ID',
+            'Thumbnail' => 'Thumbnail',
+            'Image' => 'Image',
+            'Name' => 'Name',
+            'Description' => 'Description',
+            'Release Date' => 'Release Date',
+            'Songs Count' => 'Songs Count',
+            'Songs Duration' => 'Songs Duration',
+            'Is Active' => 'Is Active',
+            'Is Top' => 'Is Top',
+            'Is New' => 'Is New',
+            'Is Hot' => 'Is Hot',
+            'Is Album' => 'Is Album',
+            'Is Video' => 'Is Video',
+            'Lang' => 'Lang',
+            'Type' => 'Type',
+            'Category ID' => 'Category ID',
+            'Count Views' => 'Count Views',
+            'Count Likes' => 'Count Likes',
+            'Count Purchase' => 'Count Purchase',
+            'Count Rates' => 'Count Rates',
+            'Rates' => 'Rates',
+            'Created Date' => 'Created Date',
+            'Created User' => 'Created User',
+            'Modified Date' => 'Modified Date',
+            'Modified User' => 'Modified User',
+            'Application ID' => 'Application ID',
+        ];
+?>

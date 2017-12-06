@@ -1,0 +1,446 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+    $HELPERS
+    -> Extends, Functions, Mixins, Animations
+\*------------------------------------*/
+/*------------------------------------*\
+		$PATTERN SETTINGS
+\*------------------------------------*/
+/*------------------------------------*\
+		$PATTERN-ACTIONS
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-actions.css.scss */
+.pattern-actions {
+  background: #fff;
+  border-top: 4px solid #e8e8e8;
+  width: 100%;
+  padding: 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 200000;
+}
+/* line 99, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/globals/_mixins.scss */
+.pattern-actions:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/*------------------------------------*\
+		$PATTERN-COLOR
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-color.css.scss */
+.pattern-color-wrapper {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+/* line 11, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-color.css.scss */
+.pattern-color {
+  border: 2px solid #e1e1e1;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 240px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px 20px;
+}
+/* line 19, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-color.css.scss */
+.pattern-color .color-bg {
+  width: 100%;
+  height: 80px;
+}
+/* line 23, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-color.css.scss */
+.pattern-color .color-descripcion {
+  padding: 14px;
+}
+/* line 25, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-color.css.scss */
+.pattern-color .color-descripcion p + p {
+  margin-top: 8px;
+}
+
+/*------------------------------------*\
+    $PATTERN-GRID
+\*------------------------------------*/
+/* line 7, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-grid.css.scss */
+.pattern-grid .g {
+  margin-bottom: 20px;
+}
+/* line 11, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-grid.css.scss */
+.pattern-grid .gi .pattern-grid-item {
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/*------------------------------------*\
+		$PATTERN-HEADER
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-header.css.scss */
+.pattern-header {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 4px solid #e8e8e8;
+  overflow: hidden;
+}
+/* line 12, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-header.css.scss */
+.pattern-header .logo-pattern {
+  display: block;
+  float: left;
+  margin: 14px 20px;
+}
+/* line 16, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-header.css.scss */
+.pattern-header .logo-pattern img {
+  max-height: 40px;
+  width: auto;
+}
+/* line 21, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-header.css.scss */
+.fixed .pattern-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/*------------------------------------*\
+    $PATTERN HEADINGS
+\*------------------------------------*/
+/* line 7, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-headings.css.scss */
+.pattern-title-section {
+  padding: 8px 12px 6px;
+  margin: 20px 0;
+  background: #393939;
+  color: #fff;
+  font-size: 22px;
+  font-size: 1.375rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 19, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-headings.css.scss */
+.pattern-title {
+  display: block;
+  font-size: 52px;
+  font-size: 3.25rem;
+  font-weight: bold;
+  padding: 20px 0;
+  color: #2aad6f;
+}
+
+/* line 27, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-headings.css.scss */
+.pattern-subtitle {
+  display: block;
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #747474;
+}
+
+/*------------------------------------*\
+    $PATTERN INDEX PAGE
+\*------------------------------------*/
+/* line 7, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page {
+  padding: 40px 0;
+}
+/* line 9, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page h1 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+/* line 14, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page .index_page_group {
+  border: 2px solid #E1E1E1;
+  margin-bottom: 30px;
+}
+/* line 17, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page .index_page_group h2 {
+  background: #EFEFEF;
+  border-bottom: 2px solid #E1E1E1;
+  color: #747474;
+  font-size: 26px;
+  padding: 12px;
+}
+/* line 24, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page .index_page_group li a {
+  display: block;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #E1E1E1;
+}
+/* line 30, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page .index_page_group li a small {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: normal;
+}
+/* line 36, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-index-page.css.scss */
+.pattern-index-page .index_page_group li a:hover {
+  background: #f1f1f1;
+}
+
+/*------------------------------------*\
+		$PATTERN-NAV
+\*------------------------------------*/
+@media only screen and (min-width: 46.875em) {
+  /* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-nav.css.scss */
+  .pattern-nav {
+    float: right;
+    margin-right: 8px;
+  }
+  /* line 10, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-nav.css.scss */
+  .pattern-nav li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /* line 13, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-nav.css.scss */
+  .pattern-nav li a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-size: 1.125rem;
+    padding: 12px 12px 16px;
+    border-top: 5px solid transparent;
+  }
+  /* line 19, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-nav.css.scss */
+  .pattern-nav li a:hover {
+    color: #2aad6f;
+  }
+  /* line 23, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-nav.css.scss */
+  .pattern-nav li.active a {
+    border-color: #2aad6f;
+    color: #2aad6f;
+    font-weight: bold;
+  }
+}
+
+/*------------------------------------*\
+		$PATTERN-SUBMENU
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+/* line 10, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu .pattern-submenu-active {
+  padding: 10px 18px;
+  margin: 2px 0;
+  min-width: 280px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* line 18, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu .pattern-submenu-select {
+  display: none;
+  background: #fff;
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 52px;
+  right: 0;
+}
+/* line 28, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu .pattern-submenu-select:after {
+  content: '';
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  right: 10%;
+}
+/* line 37, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu .pattern-submenu-select > ul {
+  max-height: 338px;
+  overflow: auto;
+}
+/* line 40, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu .pattern-submenu-select > ul > li > a {
+  display: block;
+  line-height: 1;
+  padding: 6px 6px 4px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #393939;
+}
+/* line 51, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu ul li {
+  padding: 6px 10px;
+  color: #2aad6f;
+  font-weight: bold;
+}
+/* line 55, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu ul li li {
+  text-transform: none;
+  font-size: 16px;
+  font-size: 1rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* line 63, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu ul ul {
+  margin: 8px 0;
+}
+/* line 68, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-submenu.css.scss */
+.pattern-submenu.is-active .pattern-submenu-select {
+  display: block;
+}
+
+/*------------------------------------*\
+		$PATTERN-TOP
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern-top.css.scss */
+.pattern-top {
+  float: left;
+  background: #2aad6f;
+  color: #fff;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 8px;
+}
+
+/*------------------------------------*\
+		$PATTERNS
+\*------------------------------------*/
+/*
+	PATTERN MAIN
+*/
+/* line 10, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-main {
+  width: 100%;
+  padding: 40px 0 100px;
+}
+@media only screen and (min-width: 46.875em) {
+  /* line 10, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+  .pattern-main {
+    width: 99%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 46.875em) {
+  /* line 10, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+  .pattern-main {
+    width: 96%;
+  }
+}
+
+/*
+	PATTERN CONTAINER
+*/
+/* line 26, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-container {
+  padding: 30px 0;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+/*
+	PATTERN TEXT
+*/
+/* line 35, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+/*
+	PATTERN
+*/
+/* line 46, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern {
+  border: 2px solid #e1e1e1;
+  border-radius: 6px;
+  margin-bottom: 60px;
+}
+
+/*
+	PATTERN DESCRIPTION
+*/
+/* line 56, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-description {
+  background: #efefef;
+  border-bottom: 2px solid #e1e1e1;
+  color: #343436;
+  padding: 20px;
+}
+/* line 61, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-description strong {
+  color: #111113;
+}
+/* line 64, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-description p + p {
+  margin-top: 10px;
+}
+
+/*
+	PATTERN CODE
+*/
+/* line 73, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-code {
+  margin-top: 20px;
+}
+/* line 75, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-code pre {
+  max-height: 300px;
+}
+
+/*
+	PATTERN CONTENT
+*/
+/* line 84, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_pattern.css.scss */
+.pattern-content {
+  padding: 20px;
+}
+/* line 99, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/globals/_mixins.scss */
+.pattern-content:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/*------------------------------------*\
+		$BASE 
+\*------------------------------------*/
+/* line 6, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_patterns-base.css.scss */
+body {
+  background-color: #fff;
+  min-height: 500px;
+  /* borrar */
+}
+/* line 9, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_patterns-base.css.scss */
+body.fixed {
+  padding: 68px 0 0;
+}
+
+/* line 14, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/patterns/partials/_patterns-base.css.scss */
+.pattern-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* line 99, /Volumes/Datos/redradix/oppo/source/assets/stylesheets/globals/_mixins.scss */
+.pattern-wrapper:after {
+  clear: both;
+  content: '';
+  display: table;
+}

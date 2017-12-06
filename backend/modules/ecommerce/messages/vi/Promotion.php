@@ -1,0 +1,32 @@
+<?php
+
+return [
+            'ID' => 'ID',
+            'Code' => 'Code',
+            'Image' => 'Image',
+            'Banner' => 'Banner',
+            'Name' => 'Name',
+            'Overview' => 'Overview',
+            'Content' => 'Content',
+            'Link Url' => 'Link Url',
+            'Discount Type' => 'Discount Type',
+            'Discount' => 'Discount',
+            'Usage Limit' => 'Usage Limit',
+            'Usage Current' => 'Usage Current',
+            'Apply Type' => 'Apply Type',
+            'Sales Over' => 'Sales Over',
+            'Products' => 'Products',
+            'Start Date' => 'Start Date',
+            'End Date' => 'End Date',
+            'Is Top' => 'Is Top',
+            'Is Active' => 'Is Active',
+            'Sort Order' => 'Sort Order',
+            'Count Views' => 'Count Views',
+            'Count Shares' => 'Count Shares',
+            'Created Date' => 'Created Date',
+            'Created User' => 'Created User',
+            'Modified Date' => 'Modified Date',
+            'Modified User' => 'Modified User',
+            'Application ID' => 'Application ID',
+        ];
+?>

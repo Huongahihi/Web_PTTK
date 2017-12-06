@@ -1,0 +1,51 @@
+.swiper-container {
+	padding: 20px 0;
+	background: #EEE;
+}
+.swiper-slide {
+	width: 82%;
+	max-width: 400px;
+	padding: 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  	background: #FFF;
+}
+
+.swiper-slide > img {
+	display: inline-block;
+	max-width: 85px;
+	width: 20%;
+	border-radius: 100%;
+	vertical-align: top;
+}
+
+.swiper-slide > .review {
+	display: inline-block;
+	vertical-align: top;
+	width: 72%;
+	max-width: 215px;
+	margin-left: 10px;
+}
+
+.swiper-slide > .review > .stars {
+	/*padding: 0 20px;*/
+}
+.swiper-slide > .review > .stars > img {
+	width: 20px;
+}
+
+.swiper-slide > .review > p {
+	font-size: 16px!important;
+	/*padding: 0 20px!important;*/
+	margin: 0!important;
+	margin-top: 5px!important;
+}
+.swiper-slide > .review > span {
+	display: block;
+	/*padding: 0 20px!important;*/
+	margin-top: 10px;
+	font-weight: bolder;
+	font-size: 13px;
+	color:black;
+}
